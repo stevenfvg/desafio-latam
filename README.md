@@ -43,4 +43,4 @@ npm run dev
 
 | # | Content | Code |
 | --- | --- | --- |
-| `12` | Access and manipulate DOM elements | [View code]() |
+| `12` | Access and manipulate DOM elements | [View code](projects/dom-manipulation/) |

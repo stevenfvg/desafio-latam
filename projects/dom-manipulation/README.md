@@ -25,7 +25,6 @@ The user should be able to type in the product quantity and color through input 
 ## DOM Element Access and Style Changes
 
 ```javascript
-
 // Get a DOM element by ID
 document.getElementById('title');
 
@@ -41,6 +40,7 @@ document.body.querySelectorAll('div');
 
 /**
  * Changes the style of the element with class '.container'.
+ * @function
  */
 function changeElementColor() {
     const box = document.getElementsByClassName('.container');
@@ -49,6 +49,69 @@ function changeElementColor() {
     box.style.padding = '10px';
     box.style.borderRadius = '5px';
 }
+```
+`querySelectorAll`: this is also a method of the Document object, but instead of returning just one element, it returns a collection (NodeList) of all elements that match a given CSS selector. You can use it to select multiple elements and iterate over them. For example:
 
+```javascript
+const elements = document.querySelectorAll('.element-class');
+elements.forEach(element => {
+    // Do something with each element.
+});
+```
+## Generate HTML element from the DOM
 
+```javascript
+// Creates a new <p> element in the document.
+const hashtag = document.createElement('p');
+
+// Sets the text content of the previously created <p> element.
+hashtag.textContent = '#DocumentObjectModel';
+
+// Searches the document for the first element with the class 'container' and stores it in the 'container' variable.
+const container = document.querySelector('.container');
+
+// Appends the created <p> element to the end of the 'container' element.
+container.appendChild(hashtag);
+```
+## Remove element from the DOM
+
+```javascript
+// Selects the first element with the class 'container' in the HTML document.
+const element = document.querySelector('.container');
+
+// Removes the third child element of the previously selected element.
+element.removeChild(element.children[2]);
+```
+## Traversing The DOM
+
+```javascript
+// Get the first child element using firstElementChild.
+const firstElementChild = document.body.firstElementChild;
+console.log('First child element:');
+console.log(firstElementChild);
+
+// Get the last child element using lastElementChild.
+const lastElementChild = document.body.lastElementChild;
+console.log('Last child element:');
+console.log(lastElementChild);
+
+// Get all child nodes using childNodes.
+const childNodes = document.body.childNodes;
+console.log('Child nodes:');
+console.log(childNodes);
+
+// Get all child elements using children.
+const elementsChildren = document.body.children;
+console.log('Child elements:');
+console.log(elementsChildren);
+
+// Get the node type of the first child using nodeType.
+const firstChildType = document.body.firstElementChild.nodeType;
+console.log('First child node type:');
+console.log(firstChildType);
+
+// Get the next sibling element using nextElementSibling.
+const nextElementSibling = document.head.nextElementSibling;
+console.log('Next sibling element:');
+console.log(nextElementSibling);
 ```

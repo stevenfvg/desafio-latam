@@ -2,6 +2,8 @@
 
 # DesafíoLatam
 
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 <p style="text-align: justify;">This repository contains my notes and programming examples from the Full Stack Development Bootcamp with JavaScript at Desafío Latam.</p>
 </div>
 
@@ -44,6 +46,10 @@ npm run dev
 | # | Content | Code |
 | --- | --- | --- |
 | `12` | Access and manipulate DOM elements | [View code](projects/dom-manipulation/) |
+
+## 🤝 Contributing
+
+This repository **does not accept contributions or pull requests**. It serves as a personal learning archive. For more details, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## 📄 License
 

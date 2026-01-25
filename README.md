@@ -44,3 +44,18 @@ npm run dev
 | # | Content | Code |
 | --- | --- | --- |
 | `12` | Access and manipulate DOM elements | [View code](projects/dom-manipulation/) |
+
+## 📄 License
+
+This repository is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+**You are allowed to:**
+- ✅ View and read the source code
+- ✅ Share the code with proper attribution
+
+**You are NOT allowed to:**
+- ❌ Use this code for commercial purposes
+- ❌ Modify, adapt, or create derivatives of this code
+- ❌ Redistribute modified versions
+
+For the complete license terms, see the [LICENSE](LICENSE) file.

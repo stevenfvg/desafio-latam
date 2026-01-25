@@ -69,14 +69,10 @@ export function getElementsFromDom(elements) {
         // Allow certain keys like "Backspace" and arrow keys.
         const controlKeys = ['Backspace', 'ArrowUp', 'ArrowDown'];
 
-        if (controlKeys.includes(e.key)) {
-            return; // Allow the event to continue.
-        }
-
+        // Allow the event to continue.
+        if (controlKeys.includes(e.key)) return;
         // Prevent any key that is not a number from 1 to 9.
-        if (!/^[1-9]$/.test(e.key)) {
-            e.preventDefault();
-        }
+        if (!/^[1-9]$/.test(e.key)) e.preventDefault();
     };
 
     // Function to calculate the total based on the selected quantity and color.
@@ -94,11 +90,7 @@ export function getElementsFromDom(elements) {
         }
 
         // Validate if the color has not been selected.
-        if (
-            selectedColor.value === '' ||
-            selectedColor.value === 'color' ||
-            selectedColor.value === 'Color'
-        ) {
+        if (selectedColor.value === '' || selectedColor.value === 'color' || selectedColor.value === 'Color') {
             alert('Seleccione el color del producto.');
             return;
         } else {

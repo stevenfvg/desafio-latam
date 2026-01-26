@@ -63,12 +63,8 @@ console.log(Object.isSealed(car)); // true
 
 // Functions in objects.
 const calculator = {
-    add: function (x, y) {
-        return x + y;
-    },
-    subtract: function (x, y) {
-        return x - y;
-    },
+    add: (x, y) => x + y,
+    subtract: (x, y) => x - y,
 };
 
 console.log(calculator.add(5, 3)); // 8

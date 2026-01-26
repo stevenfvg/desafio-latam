@@ -14,15 +14,11 @@ console.log(`Array length: ${length}`); // 3
 
 // Loop through the array with a for loop.
 console.log('Looping through the array with a for loop:');
-for (let i = 0; i < fruits.length; i++) {
-    console.log(fruits[i]);
-}
+for (let i = 0; i < fruits.length; i++) console.log(fruits[i]);
 
 // Loop through the array with forEach.
 console.log('Looping through the array with forEach:');
-fruits.forEach(fruit => {
-    console.log(fruit);
-});
+fruits.forEach(fruit => console.log(fruit));
 
 // Iterate and transform the 'fruits' array with .map
 console.log('Show fruits in uppercase');

@@ -10,10 +10,7 @@ const valueIndex = numbers.findIndex(value => value === 5);
 console.log('Index of number 5:', valueIndex);
 
 // The .reduce() method reduces the array to a single value by applying an accumulator function.
-const totalValue = numbers.reduce(
-    (accumulator, value) => accumulator + value,
-    0
-);
+const totalValue = numbers.reduce((accumulator, value) => accumulator + value, 0);
 console.log('Sum of the numbers:', totalValue);
 
 // The .filter() method filters the elements that meet the condition.

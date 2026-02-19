@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"url": "https://res.cloudinary.com/dozvvpar9/image/upload/v1771516296/cuppon/photo-1.jpg",
+		"title": "Plumón Coral Fleece estampado en modelo y tamaño a elección",
+		"suptitle": "Plumones Manolino",
+		"location": "9191 Avenida Vitacura, Chile",
+		"price": 45990,
+		"offer": 22990
+	},
+	{
+		"id": 2,
+		"url": "https://res.cloudinary.com/dozvvpar9/image/upload/v1771514704/cuppon/photo-2.jpg",
+		"title": "Entrada para compartir + platos de fondo + postres + bebidas",
+		"suptitle": "V for Vegan",
+		"location": "777 Jesse Pinkman, Chile",
+		"price": 30990,
+		"offer": 12990
+	},
+	{
+		"id": 3,
+		"url": "https://res.cloudinary.com/dozvvpar9/image/upload/v1771514703/cuppon/photo-3.jpg",
+		"title": "Evaluación integral + blanqueamiento dental led + limpieza + fluoración",
+		"suptitle": "Clinica Dental Quijada",
+		"location": "1342, Blanco Encalada, Chile",
+		"price": 300000,
+		"offer": 25990
+	},
+	{
+		"id": 4,
+		"url": "https://res.cloudinary.com/dozvvpar9/image/upload/v1771514705/cuppon/photo-4.jpg",
+		"title": "Colación para 2 personas + postre (no incluye bebidas)",
+		"suptitle": "Suricata almacen",
+		"location": "1071 Miguel Claro, Chile",
+		"price": 4200,
+		"offer": 2100
+	},
+	{
+		"id": 5,
+		"url": "https://res.cloudinary.com/dozvvpar9/image/upload/v1771514702/cuppon/photo-5.jpg",
+		"title": "1, 2 o 4 tickets para Stukids. Elige sucursal",
+		"suptitle": "Stukids Centro de Eventos",
+		"location": "133 El tranque, Chile",
+		"price": 4000,
+		"offer": 2500
+	},
+	{
+		"id": 6,
+		"url": "https://res.cloudinary.com/dozvvpar9/image/upload/v1771514703/cuppon/photo-6.jpg",
+		"title": "San Pedro de Atacama: 1 o 2 noches en alojamiento a elección",
+		"suptitle": "D-Latam Travel",
+		"location": "742 Calle Caracoles, Chile",
+		"price": 80200,
+		"offer": 44100
+	}
+]

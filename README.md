@@ -46,6 +46,7 @@ npm run dev
 | # | Content | Code |
 | --- | --- | --- |
 | `12` | Access and manipulate DOM elements | [View code](projects/dom-manipulation/) |
+| `13` | Traversing the DOM | [View code](projects/traversing-the-dom/) |
 
 ## 🤝 Contributing
 

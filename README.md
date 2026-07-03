@@ -1,3 +1,5 @@
+🇺🇸 English | 🇪🇸 [Español](README.es.md)
+
 <div align="center">
 
 # DesafíoLatam
@@ -5,15 +7,21 @@
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 <p style="text-align: justify;">This repository contains my notes and programming examples from the Full Stack Development Bootcamp with JavaScript at Desafío Latam.</p>
+
 </div>
 
+> **Note:** This repository will eventually include a bilingual documentation website for exploring projects, examples, and source code in both English and Spanish.
+
 ### 📋 Requirements
+
 Before running the examples, make sure you have Node.js installed on your system. You can check if Node.js is installed by running the following command in your terminal or command prompt:
 
 ```bash
 node --version
 ```
+
 ### 💻 Running the Examples
+
 To run the examples you must run the vite.js application, follow these steps:
 
 ```bash
@@ -23,6 +31,7 @@ cd basic-example/
 # Run the vite.js server in development mode
 npm run dev
 ```
+
 ## 📚 Basic examples
 
 **Vanilla JavaScript**

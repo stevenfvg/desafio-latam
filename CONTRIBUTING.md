@@ -1,3 +1,5 @@
+🇺🇸 English | 🇪🇸 [Español](CONTRIBUTING.es.md)
+
 # Contributing Guidelines
 
 ## 🚫 No Contributions Accepted
@@ -30,6 +32,12 @@ This repository serves as a **personal learning archive** containing notes and e
 This project is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)](LICENSE).
 
 This means you can view and share the code with attribution, but you cannot modify it or use it for commercial purposes.
+
+---
+
+## 📚 Documentation
+
+This repository will eventually include a bilingual documentation website for exploring projects, examples, and source code in both English and Spanish. Until then, refer to the [README.md](README.md) for an overview of the available content.
 
 ---
 
